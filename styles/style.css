@@ -5,13 +5,49 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #562EFF;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav-content{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 50px;
+    margin-right: auto;
+}
+
+.menu{
+    margin-left: auto;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 25%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
 }
 
 main{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 .container{
